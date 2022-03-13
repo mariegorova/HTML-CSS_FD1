@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    a:hover {
+        color: red;
+    }
+
+    div:not(div div):not(div:first-of-type) {
+        margin-top: 50px;
+    }
+
+    a {
+        display: block;
+        color: green;
+        border-right: 5px solid red;
+        padding: 0 10px;
+        margin: 5px 0;
+    }
+
+    div div:last-child a {
+        border: none;
+    }
+
+    div:nth-of-type(1) div {
+        display: inline-block;
+        height: 100px;
+    }
+
+    div:nth-of-type(2):not(div div) {
+        display: flex;
+    }
+
+
+    div:nth-of-type(3):not(div div) {
+        display: inline-grid;
+        grid-template-columns: repeat(5, 1fr);
+
+    }
+
+    div:nth-of-type(4):not(div div) {
+        display: table;
+    }
+
+    div:nth-of-type(4) div {
+        display: table-cell;
+    }
+</style>
+
+<body>
+    <div>
+        <div>
+            <a href="https://learn.javascript.ru/css-sprite">Первая ссылка</a> <br>
+            <a href="https://learn.javascript.ru/css-sprite">Первая ссылка</a> <br>
+            <a href="https://learn.javascript.ru/css-sprite">Первая ссылка</a>
+        </div>
+        <div>
+            <a href="https://learn.javascript.ru/css-sprite">Вторая ссылка</a> <br>
+            <a href="https://learn.javascript.ru/css-sprite">Вторая ссылка</a> <br>
+            <a href="https://learn.javascript.ru/css-sprite">Вторая ссылка</a>
+        </div>
+        <div>
+            <a href="https://learn.javascript.ru/css-sprite">Третья ссылка</a> <br>
+            <a href="https://learn.javascript.ru/css-sprite">Третья ссылка</a> <br>
+            <a href="https://learn.javascript.ru/css-sprite">Третья ссылка</a>
+        </div>
+        <div>
+            <a href="https://learn.javascript.ru/css-sprite">Четвертая ссылка</a> <br>
+            <a href="https://learn.javascript.ru/css-sprite">Четвертая ссылка</a> <br>
+            <a href="https://learn.javascript.ru/css-sprite">Четвертая ссылка</a>
+        </div>
+        <div>
+            <a href="https://learn.javascript.ru/css-sprite">Пятая ссылка</a> <br>
+            <a href="https://learn.javascript.ru/css-sprite">Пятая ссылка</a> <br>
+            <a href="https://learn.javascript.ru/css-sprite">Пятая ссылка</a>
+        </div>
+    </div>
+
+    <div>
+        <div>
+            <a href="https://learn.javascript.ru/css-sprite">Первая ссылка</a> <br>
+            <a href="https://learn.javascript.ru/css-sprite">Первая ссылка</a> <br>
+            <a href="https://learn.javascript.ru/css-sprite">Первая ссылка</a>
+        </div>
+        <div>
+            <a href="https://learn.javascript.ru/css-sprite">Вторая ссылка</a> <br>
+            <a href="https://learn.javascript.ru/css-sprite">Вторая ссылка</a> <br>
+            <a href="https://learn.javascript.ru/css-sprite">Вторая ссылка</a>
+        </div>
+        <div>
+            <a href="https://learn.javascript.ru/css-sprite">Третья ссылка</a> <br>
+            <a href="https://learn.javascript.ru/css-sprite">Третья ссылка</a> <br>
+            <a href="https://learn.javascript.ru/css-sprite">Третья ссылка</a>
+        </div>
+        <div>
+            <a href="https://learn.javascript.ru/css-sprite">Четвертая ссылка</a> <br>
+            <a href="https://learn.javascript.ru/css-sprite">Четвертая ссылка</a> <br>
+            <a href="https://learn.javascript.ru/css-sprite">Четвертая ссылка</a>
+        </div>
+        <div>
+            <a href="https://learn.javascript.ru/css-sprite">Пятая ссылка</a> <br>
+            <a href="https://learn.javascript.ru/css-sprite">Пятая ссылка</a> <br>
+            <a href="https://learn.javascript.ru/css-sprite">Пятая ссылка</a>
+        </div>
+    </div>
+
+    <div>
+        <div>
+            <a href="https://learn.javascript.ru/css-sprite">Первая ссылка</a> <br>
+            <a href="https://learn.javascript.ru/css-sprite">Первая ссылка</a> <br>
+            <a href="https://learn.javascript.ru/css-sprite">Первая ссылка</a>
+        </div>
+        <div>
+            <a href="https://learn.javascript.ru/css-sprite">Вторая ссылка</a> <br>
+            <a href="https://learn.javascript.ru/css-sprite">Вторая ссылка</a> <br>
+            <a href="https://learn.javascript.ru/css-sprite">Вторая ссылка</a>
+        </div>
+        <div>
+            <a href="https://learn.javascript.ru/css-sprite">Третья ссылка</a> <br>
+            <a href="https://learn.javascript.ru/css-sprite">Третья ссылка</a> <br>
+            <a href="https://learn.javascript.ru/css-sprite">Третья ссылка</a>
+        </div>
+        <div>
+            <a href="https://learn.javascript.ru/css-sprite">Четвертая ссылка</a> <br>
+            <a href="https://learn.javascript.ru/css-sprite">Четвертая ссылка</a> <br>
+            <a href="https://learn.javascript.ru/css-sprite">Четвертая ссылка</a>
+        </div>
+        <div>
+            <a href="https://learn.javascript.ru/css-sprite">Пятая ссылка</a> <br>
+            <a href="https://learn.javascript.ru/css-sprite">Пятая ссылка</a> <br>
+            <a href="https://learn.javascript.ru/css-sprite">Пятая ссылка</a>
+        </div>
+    </div>
+
+    <div>
+        <div>
+            <a href="https://learn.javascript.ru/css-sprite">Первая ссылка</a> <br>
+            <a href="https://learn.javascript.ru/css-sprite">Первая ссылка</a> <br>
+            <a href="https://learn.javascript.ru/css-sprite">Первая ссылка</a>
+        </div>
+        <div>
+            <a href="https://learn.javascript.ru/css-sprite">Вторая ссылка</a> <br>
+            <a href="https://learn.javascript.ru/css-sprite">Вторая ссылка</a> <br>
+            <a href="https://learn.javascript.ru/css-sprite">Вторая ссылка</a>
+        </div>
+        <div>
+            <a href="https://learn.javascript.ru/css-sprite">Третья ссылка</a> <br>
+            <a href="https://learn.javascript.ru/css-sprite">Третья ссылка</a> <br>
+            <a href="https://learn.javascript.ru/css-sprite">Третья ссылка</a>
+        </div>
+        <div>
+            <a href="https://learn.javascript.ru/css-sprite">Четвертая ссылка</a> <br>
+            <a href="https://learn.javascript.ru/css-sprite">Четвертая ссылка</a> <br>
+            <a href="https://learn.javascript.ru/css-sprite">Четвертая ссылка</a>
+        </div>
+        <div>
+            <a href="https://learn.javascript.ru/css-sprite">Пятая ссылка</a> <br>
+            <a href="https://learn.javascript.ru/css-sprite">Пятая ссылка</a> <br>
+            <a href="https://learn.javascript.ru/css-sprite">Пятая ссылка</a>
+        </div>
+    </div>
+
+</body>
+
+</html>

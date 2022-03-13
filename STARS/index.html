@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .star-rating {
+        display:  flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+    .star {
+        width: 90px;
+        height: 90px;
+        background-image: url("star0.png");
+        background-repeat: no-repeat;
+    }
+
+    .star:hover, .star:hover ~ .star {
+        background-image: url("star1.png");
+    }
+
+
+</style>
+</head>
+
+<body>
+<div class="star-rating">
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+</div>
+</body>
+
+</html>
