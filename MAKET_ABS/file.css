@@ -1,0 +1,65 @@
+.layout {
+  width: 100%;
+
+  text-align: auto;
+  min-height: 100%;
+  position: relative;
+}
+
+.center1 {
+  position: absolute;
+  left: -240px;
+  top: 75px;
+  margin: 0 auto;
+  right: 0;
+}
+
+.center2 {
+  position: absolute;
+  left: 190px;
+  top: 20px;
+  margin: 0 auto;
+  right: 0;
+}
+
+.center3 {
+  position: absolute;
+  left: -15px;
+  top: 270px;
+  margin: 0 auto;
+  right: 0;
+}
+
+.center4 {
+  position: absolute;
+  left: -25px;
+  right: 0;
+  margin: 0 auto;
+  top: 130px;
+}
+
+.center1:hover {
+  position: absolute;
+  left: -240px;
+  top: 75px;
+  margin: 0 auto;
+  right: 0;
+  z-index: 1;
+}
+
+.center2:hover {
+  position: absolute;
+  left: 190px;
+  margin: 0 auto;
+  right: 0;
+  z-index: 1;
+}
+
+.center3:hover {
+  position: absolute;
+  left: -15px;
+  top: 270px;
+  margin: 0 auto;
+  right: 0;
+  z-index: 1;
+}
